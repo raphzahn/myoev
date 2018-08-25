@@ -35,8 +35,91 @@
   </nav>
 
   <ul id="slide-settings" class="sidenav">
+   
+    <div class="container">
+      <h5>Einstellungen</h5>
+      <form action="#">
+        <b>Verbindungsarten</b>
+        <p>
+          <label>
+            <input type="checkbox" id="chk_ice" class="filled-in" checked="checked"/>
+            <span>ICE, TGV und RJ</span>
+          </label>
+        </p>
+        <p>
+          <label>
+            <input type="checkbox" id="chk_ec" class="filled-in" checked="checked"/>
+            <span>EC und IC</span>
+          </label>
+        </p>
+        <p>
+          <label>
+            <input type="checkbox" id="chk_ir" class="filled-in" checked="checked"/>
+            <span>IR</span>
+          </label>
+        </p>
+        <p>
+          <label>
+            <input type="checkbox" id="chk_re" class="filled-in" checked="checked"/>
+            <span>RE und D</span>
+          </label>
+        </p>
+        <p>
+          <label>
+            <input type="checkbox" id="chk_s" class="filled-in" checked="checked"/>
+            <span>S, SN und R</span>
+          </label>
+        </p>
+        <p>
+          <label>
+            <input type="checkbox" id="chk_arz" class="filled-in" checked="checked"/>
+            <span>ARZ und EXT</span>
+          </label>
+        </p>
+        <p>
+          <label>
+            <input type="checkbox" id="chk_bus" class="filled-in" checked="checked"/>
+            <span>Bus</span>
+          </label>
+        </p>
+        <p>
+          <label>
+            <input type="checkbox" id="chk_ship" class="filled-in" checked="checked"/>
+            <span>Schiff</span>
+          </label>
+        </p>
+        <p>
+          <label>
+            <input type="checkbox" id="chk_cableway" class="filled-in" checked="checked"/>
+            <span>Seilbahn</span>
+          </label>
+        </p>
+        <p>
+          <label>
+            <input type="checkbox" id="chk_tram" class="filled-in" checked="checked"/>
+            <span>Tram und Ubahnen</span>
+          </label>
+        </p>
+        <b>Anzahl Stationen</b>
+        <p class="range-field">
+          <input type="range" id="range_station" min="1" max="16" value="10"/>
+        </p>      
+        <b>Anzahl Verbindungen</b>
+        <p class="range-field">
+          <input type="range" id="range_connection" min="1" max="16" value="10"/>
+        </p>
+      </form>
+    </div>
   </ul>
   <ul id="slide-info" class="sidenav">
+    <div class="container">
+        <h5>Infos</h5>
+        <p>Dies ist eine App mit der Ihr die nächsten Verbindungen der Nächstgelegenen Haltestellen abrufen könnt.</p>
+        <p>Diese ist ist aus spass an der Herausforderung eine App zu entwicklen entstanden.</p>
+        <p>Bugs können im Repository auf Github eingereicht werden.</p>
+        <a class="waves-effect waves-light btn blue-grey darken-4">Source Code</a>
+    </div>
+
   </ul>
 
   <!--JavaScript at end of body for optimized loading-->
